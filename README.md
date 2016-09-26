@@ -21,3 +21,12 @@ Installer https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/ -> py2exe-
 Placer les fichiers `HTTP_reverse_shell_client.py` et `setup.py` dans le même dossier puis exécuter setup.py
 
 
+
+
+
+###TODO
+- DNS via le lab - DNS déjà disponible donc pas besoin de dynDNS
+- Communication via twitter
+
+
+
