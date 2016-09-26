@@ -17,4 +17,7 @@ wget https://bootstrap.pypa.io/get-pip.py
 ## Installer py2exe
 Installer https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/ -> py2exe-0.6.9.win32-py2.7.exe
 
+## Build le reverse_shell côté client
+Placé les fichiers HTTP_reverse_shell_client.py et setup.py dans le même dossier puis exécuter setup.py
+
 
