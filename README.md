@@ -2,11 +2,13 @@
 
 ## Installer python
 Python 2.7 en 32bits OBLIGATOIRE
+
 https://www.python.org/downloads/release/python-2712/ -> Windows x86 MSI installer
 
 
 ## Installer pip
 wget https://bootstrap.pypa.io/get-pip.py
+
 `python get-pip.py`
 
 ## Installer la lib requests
