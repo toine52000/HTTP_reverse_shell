@@ -46,13 +46,6 @@ Les commandes utilisables:
 
 
 ## TODO
-- DynDNS? 
-- twitter
-
-
-
-
-###TODO
 - DNS via le lab - DNS déjà disponible donc pas besoin de dynDNS
 - Communication via twitter
 
