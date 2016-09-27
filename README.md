@@ -27,21 +27,21 @@ Installer https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/ -> py2exe-
 Placer les fichiers `HTTP_reverse_shell_client.py` et `setup.py` dans le même dossier puis exécuter setup.py
 
 ## Fonctionnalité
-'Les commandes utilisables:'
+Les commandes utilisables:
 
-'	aide -> affiche cette aide'
+	aide -> affiche cette aide
 
-'	vol [file] -> recuperer un fichier sur la cible, ex: vol fichier\a\recuperer'
+	vol [file] -> recuperer un fichier sur la cible, ex: vol fichier\a\recuperer
 
-'	capture -> prendre un screenshot de la victime'
+	capture -> prendre un screenshot de la victime
 
-'	chercher [path]*[extension] -> rechercher a l'interieur du repertoire "path" les fichiers de type "extension", ex: chercher C:\\\\*.pdf'
+	chercher [path]*[extension] -> rechercher a l'interieur du repertoire "path" les fichiers de type "extension", ex: chercher C:\\\\*.pdf
 
-'	cd [path] -> changer de path courant, ex: cd C:\\Users\Desktop\'
+	cd [path] -> changer de path courant, ex: cd C:\\Users\Desktop\
 
-'	scan [ip]:[ports] -> scanner les ports de l\'hote "ip". Ports specifies (1,2,3...) ou sous forme d'ecrat (1-5), ex: scan 10.10.10.10:1-500 ou scan 10.10.10.10:80, 8080, 453'
+	scan [ip]:[ports] -> scanner les ports de l\'hote "ip". Ports specifies (1,2,3...) ou sous forme d'ecrat (1-5), ex: scan 10.10.10.10:1-500 ou scan 10.10.10.10:80, 8080, 453
 
-'	keylogger [path] -> lance un keylogger, si aucun path n'est precise il enregistre dans le fichier "logs.txt" dans le repertoire courant. Attention aux droits d\'ecriture'			
+	keylogger [path] -> lance un keylogger, si aucun path n'est precise il enregistre dans le fichier "logs.txt" dans le repertoire courant. Attention aux droits d\'ecriture		
 			
 
 
