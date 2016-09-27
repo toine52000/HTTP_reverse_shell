@@ -50,6 +50,7 @@ Les commandes utilisables:
 - Communication via twitter
 - keepass hijack
 - Firefox Hijacking
+- DNS Spoofing - ATTENTION: nécessite droit admin, seul? pb?
 
 
 
