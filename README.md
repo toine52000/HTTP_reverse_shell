@@ -14,6 +14,12 @@ wget https://bootstrap.pypa.io/get-pip.py
 ## Installer la lib requests
 `pip install requests`
 
+## Isntaller la lib pyHook & pywin32
+https://sourceforge.net/projects/pyhook/files/pyhook/1.5.1/pyHook-1.5.1.win32-py2.7.exe/download
+
+https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/pywin32-220.win32-py2.7.exe/download
+
+
 ## Installer py2exe
 Installer https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/ -> py2exe-0.6.9.win32-py2.7.exe
 
