@@ -48,6 +48,7 @@ Les commandes utilisables:
 ## TODO
 - DNS via le lab - DNS déjà disponible donc pas besoin de dynDNS
 - Communication via twitter
+- keepass hijack
 
 
 
