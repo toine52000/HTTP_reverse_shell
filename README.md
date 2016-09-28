@@ -25,8 +25,7 @@ Les commandes utilisables:
 
 
 ## TODO
-- DNS via le lab - DNS déjà disponible donc pas besoin de dynDNS
-- Communication via twitter
+- IPS Bypass: reception fichier sur SourceForges, retour commande sur Google Forms, envoie commande via Twitter
 - keepass hijack
 - Firefox Hijacking
 - DNS Spoofing - ATTENTION: nécessite droit admin, seul? pb?
