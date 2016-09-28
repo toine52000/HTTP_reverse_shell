@@ -19,8 +19,11 @@ https://sourceforge.net/projects/pyhook/files/pyhook/1.5.1/pyHook-1.5.1.win32-py
 
 https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/pywin32-220.win32-py2.7.exe/download
 
-## Installer la lib pyperclip
+## Installer la lib pyperclip & pywin32
 `pip install pyperclip`
+
+`pip install pywin32`
+
 
 
 ## Installer py2exe
