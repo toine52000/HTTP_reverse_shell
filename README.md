@@ -21,7 +21,7 @@ https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/pywin32-220.w
 
 ou `pip install pywin32`
 
-## Installer la lib pyperclip & pywin32
+## Installer la lib pyperclip
 `pip install pyperclip`
 
 
