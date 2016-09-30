@@ -1,7 +1,7 @@
 # HTTP_reverse_shell
 
 ## Fonctionnalité
-- Communication via HTTP
+- Communication via HTTP avec chiffrement XOR
 - persistence par clé de registre Run
 - Firewall host-based bypass par utilisation d'Internet Explorer
 
