@@ -1,35 +1,42 @@
 # HTTP_reverse_shell
 
-## Fonctionnalité
+## Fonctionnalités
 - Communication via HTTP avec chiffrement XOR
 - persistence par clé de registre Run
 - Firewall host-based bypass par utilisation d'Internet Explorer
+- Envoie/Réception de fichiers via chiffrement XOR
 
 
-## Commande
+## Commandes
 Les commandes utilisables:
 
 	aide -> affiche cette aide
-
-	vol [file] -> recuperer un fichier sur la cible, ex: vol fichier\a\recuperer
-
-	capture -> prendre un screenshot de la victime
-
-	chercher [path]*[extension] -> rechercher a l'interieur du repertoire "path" les fichiers de type "extension", ex: chercher C:\\\\*.pdf
-
+	
+	vol [file] -> recuperer un fichier sur la cible, ex: vol fichier\a\recuperer 
+	
+	capture -> prendre un screenshot de la cible
+	
+	chercher [path]*[extension] -> rechercher a l'interieur du repertoire "path" les fichiers de type "extension", ex: chercher C:\\*.pdf
+	
 	cd [path] -> changer de path courant, ex: cd C:\\Users\Desktop\
+	
+	scan [ip]:[ports] -> scanner les ports de l'hote "ip". Ports specifies (1,2,3...) ou sous forme d'ecart (1-5), ex: scan 10.10.10.10:1-500 ou scan 10.10.10.10:80, 8080, 453
+	
+	keylogger [path] -> lance un keylogger, si aucun path n'est precise il enregistre dans le fichier "logs.txt" dans le repertoire courant. Attention aux droits d'ecriture
+	
+	chrome-pass -> vole les identifiants et mot de passe enregistres par l'utilisateur dans son naviguateur Google Chrome
 
-	scan [ip]:[ports] -> scanner les ports de l\'hote "ip". Ports specifies (1,2,3...) ou sous forme d'ecrat (1-5), ex: scan 10.10.10.10:1-500 ou scan 10.10.10.10:80, 8080, 453
+ By propA - Magellan Consulting
 
-	keylogger [path] -> lance un keylogger, si aucun path n'est precise il enregistre dans le fichier "logs.txt" dans le repertoire courant. Attention aux droits d\'ecriture
 
 
 ## TODO
-- IPS Bypass: reception fichier sur SourceForges, retour commande sur Google Forms, envoie commande via Twitter
 - keepass hijack
 - Firefox Hijacking
-- DNS Spoofing - ATTENTION: nécessite droit admin, seul? pb?
 
+## Idées
+- DNS Spoofing - ATTENTION: nécessite droit admin, seul? pb?
+- IPS Bypass: reception fichier sur SourceForges, retour commande sur Google Forms, envoie commande via Twitter
 
 
 # Installation
@@ -57,7 +64,6 @@ ou `pip install pywin32`
 
 ## Installer la lib pyperclip
 `pip install pyperclip`
-
 
 ## Installer py2exe
 Installer https://sourceforge.net/projects/py2exe/files/py2exe/0.6.9/ -> py2exe-0.6.9.win32-py2.7.exe
